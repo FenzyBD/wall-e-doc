@@ -11,7 +11,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export', // Required for static export
   basePath: isProd ? '/wall-e-doc' : '',
   assetPrefix: isProd ? '/wall-e-doc/' : '',
 };
